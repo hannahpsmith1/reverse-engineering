@@ -1,3 +1,5 @@
+// HS - This is requiring our models folder which will have our sequelize data/tables
+// HS- this is also requiring passport which is code we have defined for authentication in the config folder
 // Requiring our models and passport as we've configured it
 var db = require("../models");
 var passport = require("../config/passport");
