@@ -26,18 +26,20 @@ using an existing codebase, comment on the code to explain what's going on.
 
 
 
-## models
-*[index.js](##index)     
-*[user.js](##user.js) 
-
-    *Several comments inline from HS 1-6 describing dependencies , and a conditional statment.  Best option to view within document. 
-    *Eventually a read, dir, sync, which in code is readdirSync, which shows reading the db, writing, and syncing to it via fs.    
+## models   
+* ##index  
+1)   *Several comments inline from HS 1-6 describing dependencies , and a conditional statment.  Best option to view within document.    
+* ##user.js 
+2)    *Eventually a read, dir, sync, which in code is readdirSync, which shows reading the db, writing, and syncing to it via fs.    
     *  Please also see lines 38-39 of code
 
 ## public   
-*[js](##js)     
-*[stylesheet](##stylesheets) 
-
+<!-- *[js](##js)     
+*[stylesheet](##stylesheets)  -->
+<!-- * To all my peeps looking for how to understand this code:        -->
+[login.html]Login.html    
+[members.html]members.html     
+[signup.html]signup.html   
 * login.js
 * members.js
 * signup.js
