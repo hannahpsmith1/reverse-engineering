@@ -19,10 +19,10 @@ using an existing codebase, comment on the code to explain what's going on.
 
 ## config
 *[Middleware](##middleware)         
-    *[isAuthenticated](###isAuthenticated.js)     
-    * module.exports is exporting the function for other files to be used.        
+    *isAuthenticated.js     
+    1) module.exports is exporting the function for other files to be used.        
     conditional statment that has 2 routes, if the request user object is not null it will execute the if statment       
-    * if the object returns null or none they will be redirected to the home page
+    2) if the object returns null or none they will be redirected to the home page
 
 
 
