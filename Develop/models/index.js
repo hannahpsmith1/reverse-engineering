@@ -1,5 +1,9 @@
 'use strict';
-// HS - below are listed dependencies - 
+// HS - below are listed dependencies - fs to read/write files, path as also seen on the html-routes.js sequelize, as seen on server.js.
+// HS - for var basename - The path.basename() method returns the last portion of a path,
+// HS - env refers to the environment that the app will run, those are specified in the .json (package.json) but those files cannot be commented on individually
+// HS - config, the __ in dirname tells you the absolute path of the directory containing the currently executing file, in this case it will be the config.json
+// HS - var db is instantiating an empty opject to populate
 var fs        = require('fs');
 var path      = require('path');
 var Sequelize = require('sequelize');
@@ -8,6 +12,7 @@ var env       = process.env.NODE_ENV || 'development';
 var config    = require(__dirname + '/../config/config.json')[env];
 var db        = {};
 
+// HS - conditional.  If the config environment variable (config.json in config folder)
 if (config.use_env_variable) {
   var sequelize = new Sequelize(process.env[config.use_env_variable]);
 } else {
