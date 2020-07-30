@@ -4,8 +4,8 @@
 ## Project Description 
 using an existing codebase, comment on the code to explain what's going on. 
 
-## Code Link
-[Github Link](https://wwww.github.com/hannahpsmith1/reverse-engineering)
+## Code Repo Link
+[Github Link](https://github.com/hannahpsmith1/reverse-engineering)
 
 
 ## Structure of Code 
@@ -18,13 +18,13 @@ using an existing codebase, comment on the code to explain what's going on.
 
 
 ## config
-*[config](##config)     
-*[models](##models)  
-<!-- *###middleware
-*####isAuthenticated.js    
-<p>asdlfkalsdfkjasdlkfjasdflk</p>      
-###config.json          
-###passport.js              -->
+*[Middleware](##middleware) 
+*[isAuthenticated](###isAuthenticated.js)     
+asldkjfaldkjfaskd     
+<p></p>    
+*[models](##models)     
+<p>  ASDsdasD</p>
+
 
 ## models
 <!-- *[index.js](###index.js)      
@@ -33,9 +33,8 @@ using an existing codebase, comment on the code to explain what's going on.
 *[models](##models) 
 
 ## public   
-###js    
-###stylesheets    
-*login.html   
+*[config](##config)     
+*[models](##models) 
 
 
 
