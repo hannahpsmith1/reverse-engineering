@@ -1,3 +1,4 @@
+// HS - Passport is Express-compatible authentication middleware for Node.js. We are requiring it here so that it can be used when the variable passport is called.  See also on server.js
 var passport = require("passport");
 var LocalStrategy = require("passport-local").Strategy;
 
