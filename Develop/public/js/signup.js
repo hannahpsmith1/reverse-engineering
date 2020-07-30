@@ -1,12 +1,12 @@
-// HS - using jQuery to get the document.  Once it is loaded it would execute this function
+// HS - using jQuery to get the document specified on line 47 of the signup.html under the public folder.  Once it is loaded it would execute this function
 $(document).ready(function() {
   // HS - Below there are 3 variables defined which are specific to signup.html
   // Getting references to our form and input
-  // HS - signupForm is using jquery to get information from signup.html.  It is getting the semantic html element form with the class (. in jQuery) signup.
+  // HS - signupForm is using jquery to get information from signup.html.  It is getting the html element form with the class (. in jQuery) signup.
   var signUpForm = $("form.signup");
-  // HS - the emailInput is using jQuery to get the semantic html element input, with the class (# in jQuery) email-input (line 28 on signup.html)
+  // HS - the emailInput is using jQuery to get the html element input, with the class (# in jQuery) email-input (line 28 on signup.html)
   var emailInput = $("input#email-input");
-  // HS - the emailInput is using jQuery to get the semantic html element input, with the class (#) of password-input (line 32 on signup.html)
+  // HS - the passworInput is using jQuery to get the html element input, with the class (#) of password-input (line 32 on signup.html)
   var passwordInput = $("input#password-input");
 
 // HS - lines 14-28 are conditions for an event listener (in jQuery format) of clicking on the submit button 

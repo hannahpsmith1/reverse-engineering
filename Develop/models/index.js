@@ -1,5 +1,5 @@
 'use strict';
-
+// HS - below are listed dependencies - 
 var fs        = require('fs');
 var path      = require('path');
 var Sequelize = require('sequelize');
@@ -30,7 +30,9 @@ Object.keys(db).forEach(function(modelName) {
   }
 });
 
+// HS - Sequelize (capital) references the standard library, while sequelize (lowercase) references the connection to the DB.
 db.sequelize = sequelize;
 db.Sequelize = Sequelize;
 
+// HS - exports the connection for other files to use
 module.exports = db;
