@@ -5,11 +5,13 @@
   <title>Passport Authentication</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- HS - this is linking to the bootstrap template engine, and the link below that (line 10) is referring to custom css styling different than default bootstrap styling -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/lumen/bootstrap.min.css">
   <link href="stylesheets/style.css" rel="stylesheet">
 </head>
 
 <body>
+  <!-- HS - Lines 15-23 are defining a navbar which is within a container (to find out more about containers, check out getbootstrap.com) only has an anchor tag (which makes it clickable) with the text Logout, which references the route /logout    -->
   <nav class="navbar navbar-default">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -19,6 +21,7 @@
     </div>
   </div>
 </nav>
+<!-- HS - Below is a container, which contains a row and the row is being shaped by row 27, which shows the column will span 6 out of the 12 grid rows (based on bootstraps grid system), and will break at md screen size (also default defined by bootstrap) and offset so it will appear in the middle of the screen (3 columns then the 6 for the form  and the 3 on the otherside)   -->
   <div class="container">
     <div class="row">
       <div class="col-md-6 col-md-offset-3">
@@ -26,7 +29,7 @@
       </div>
     </div>
   </div>
-
+<!-- HS - These are custom js scripts, line 33 to allow jquery to run, and line 34 to link to the login.js under the public folder -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script type="text/javascript" src="js/members.js"></script>
 
