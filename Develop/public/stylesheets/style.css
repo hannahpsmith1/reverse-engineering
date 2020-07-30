@@ -2,3 +2,5 @@ form.signup,
 form.login {
   margin-top: 50px;
 }
+
+/*HS - This is the styling for the forms on both the signup.html and the login.html, it refers to the how large the margin at the top of the form is (in this case 50 px for both)  */
