@@ -11,20 +11,26 @@
 </head>
 
 <body>
-  <!-- HS - lines 15-20 are a default navbar from the bootstrap framework.  The navbar does not contain any text, just styling/spacing/coloring -->
+  <!-- HS - lines 15-20 are a default navbar from the bootstrap framework.  The navbar does not contain any text, just default styling/spacing/coloring as specified by bootstrap -->
   <nav class="navbar navbar-default">
     <div class="container-fluid">
       <div class="navbar-header">
       </div>
     </div>
   </nav>
+  <!-- HS - Line 22 specifies that everything in that div is the class container.  A container is the most basic unit of an element in the bootstrap framework/library.  Within this are more specific fields (specifically a form which is called elsewhere) -->
   <div class="container">
+
     <div class="row">
+      <!-- HS - Below is a container, which contains a row and the row is being shaped by row 26, which shows the column will span 6 out of the 12 grid rows (based on bootstraps grid system), and will break at md screen size (also default defined by bootstrap) and offset so it will appear in the middle of the screen (3 columns then the 6 for the form  and the 3 on the otherside)   -->
       <div class="col-md-6 col-md-offset-3">
+        <!-- HS - h2 specifies the size of text, and the white text inbetween is the text that will be rendered on line 28 -->
         <h2>Sign Up Form</h2>
+        <!-- HS - lines 30-44 are defining a form.  We are able to manipulate fields like margin (see style.css for additional comments) based on the form class -->
         <form class="signup">
           <div class="form-group">
             <label for="exampleInputEmail1">Email address</label>
+            <!-- HS - These input fields (line 34 and 38) have classes that will come into play in the signup.js (within the public/js folder) -->
             <input type="email" class="form-control" id="email-input" placeholder="Email">
           </div>
           <div class="form-group">
@@ -35,14 +41,16 @@
             <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
             <span class="sr-only">Error:</span> <span class="msg"></span>
           </div>
+          <!-- HS - Below is the submit button we will need to listen for to be able to do anything with the input fields above  -->
           <button type="submit" class="btn btn-default">Sign Up</button>
         </form>
         <br />
+        <!-- HS - If you are already signed up there is a redirect link here so as not to have to fill out the form/event listener -->
         <p>Or log in <a href="/login">here</a></p>
       </div>
     </div>
   </div>
-<!-- HS - These are custom js scripts, line 47 to allow jquery to run, and line 48 to link to the login.js under the public folder -->
+<!-- HS - These are custom js scripts, lines 47-48 to allow jquery to run, line 48 to link to the login.js under the public/js signup.js file. -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script type="text/javascript" src="js/signup.js"></script>
 
