@@ -50,8 +50,15 @@ using an existing codebase, comment on the code to explain what's going on.
 *[api.routes](####api.routes.js)
 *[html.routes](####html.routes.js)       
 
+words words words     
+words words words      
+
+
+*[package.json](###package.json)  
+Users are not allowed to comment on .json files, but this json is looking for the dependencies to be run (express, mysql2, passport, and my sql to name a few)
 
 
 
-*[api-routes](###api-routes)      
-*[html-routes](###html-routes)    
+*[server.js](###server.js)  
+
+*  To be fair, this whole excersize I started by expecting I was editing comments on every page instead of doing this.  So i'm pretty late to the game, much of this will refer to specific documents with very helpful comments, before midnight tonight and then migrating them over to be helpful as a readme this week.  
